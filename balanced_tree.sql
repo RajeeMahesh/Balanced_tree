@@ -7,3 +7,5 @@ from balanced_tree.product_details pd
 join balanced_tree.sales s 
 on s.prod_id = pd.product_id 
 group by product_id, product_name
+
+chenging
