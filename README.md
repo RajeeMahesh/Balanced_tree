@@ -16,16 +16,14 @@ From the product Analysis,
   Navy Oversized Jeans - Womens	     
   
 2.Segment wise purchase analysis
-  segment_name	    qty_sold    	rev_earned    	discount_amt	gain
-  Shirt	            11265	        135416	        14869	        120547
-  Jeans	            11349       	68864         	6653        	62211
-  Jacket	          11385       	121281        	12827       	108454
-  Socks	            11217       	103729        	10764       	92965
+Quantity wise - highest sold segment is Jacket
+Highest revenue earned before and after discount is shirt
+Highest discount is alloted to Shirt segment 
   
 3.Category wise sales analysis
-category_name     	qty_sold    	rev_earned    	discount_amt    	gain
-Mens              	22482       	714120        	25633           	688487
-Womens            	22734       	575333        	19480           	555853
+Men's category is earning us more revenue than the women's category, though the quantity wise highest sold is women clothing. Men clothing seem to be costly and still people preferred it because of high discounts given to it. 
+
+From the segment and category analysis I find that, given the highest discounts people are preferring the product which in turn gives us more revenue. 
 
 
 
