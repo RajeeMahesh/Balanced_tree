@@ -10,10 +10,10 @@ member	    159.96
 
 From the product Analysis, 
 1.top 3 products preferred by customers in clique bait store is, 
-  product_name	tot_rev
-  Teal Button Up Shirt - Mens	        USD 12420
-  Cream Relaxed Jeans - Womens	      USD 12430
-  Navy Oversized Jeans - Womens	      USD 16562
+  
+  Teal Button Up Shirt - Mens	        
+  Cream Relaxed Jeans - Womens	      
+  Navy Oversized Jeans - Womens	     
   
 2.Segment wise purchase analysis
   segment_name	    qty_sold    	rev_earned    	discount_amt	gain
