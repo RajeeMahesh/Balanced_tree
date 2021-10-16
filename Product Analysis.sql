@@ -137,7 +137,18 @@ from
     Womens          	555853          	44
    
 9.What is the total transaction “penetration” for each product? (hint: penetration = number of transactions where at least 1 quantity of a product was purchased divided by total number of transactions)
+select product_id, product_name, penetration_rate
+from balanced_tree.product_details pd 
+left join 
+      (select prod_id, cast(count(txn_id) as numeric)/(select count(txn_id) from balanced_tree.sales) as penetration_rate
+      from balanced_tree.sales s 
+      group by prod_id) t_pr
+on pd.product_id = t_pr.prod_id
 
+10.What is the most common combination of at least 1 quantity of any 3 products in a 1 single transaction?(developing in the answer)
+select txn_id, string_agg(prod_id, ',' order by prod_id) as combo
+from balanced_tree.sales
+group by txn_id
 
 
 
